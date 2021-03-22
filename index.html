@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-image" src="2.png" alt="But First Coffee logo" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about"> About </a></li>
+          <li><a class="nav-link" href="#features"> Features </a></li>
+          <li><a class="nav-link" href="#types"> Types </a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <section id="about">
+        <h2>About:</h2>
+        <p>
+          Drinking a steaming cup of coffee in the morning is a ritual most of
+          us enjoy. Of course, nothing makes the experience better than drinking
+          your favourite hot beverage from your favourite coffee mug.
+        </p>
+        <video id="video" width="320" height="240" controls>
+          <source src="/The Best Coffee Mugs.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input
+            id="submit"
+            type="submit"
+            value="Get 20% off on your first mug "
+            class="btn"
+          />
+        </form>
+      </section>
+      <section id="features">
+        <h2>Features:</h2>
+        <div class="flex">
+          <div class="icon">
+            <i class="large material-icons"> looks_one </i>
+          </div>
+          <div class="description">
+            <h3>Capacity:</h3>
+            350ml
+            <p></p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="icon"><i class="large material-icons">looks_two </i></div>
+          <div class="description">
+            <h3>Material:</h3>
+            Ceramics
+            <p></p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="icon"><i class="large material-icons">looks_3 </i></div>
+          <div class="description">
+            <h3>Color:</h3>
+            Customizable Double side printing
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <section id="types">
+        <h2>Types:</h2>
+        <div class="types">
+          <div class="product" id="everyday">
+            <div class="level">everyday mug</div>
+            <h2>$18.95</h2>
+            <ol>
+              <li>Porcelain</li>
+              <li>Dishwasher-, microwave- and oven-safe to 300 degrees</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="ceramic">
+            <div class="level">ceramic mug</div>
+            <h2>$24.44</h2>
+            <ol>
+              <li>Dishwasher Safe</li>
+              <li>Reusable Cup</li>
+              <li>On-the-Go | Portable</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="travel">
+            <div class="level">travel mug</div>
+            <h2>$32.71</h2>
+            <ol>
+              <li>360 degree cap</li>
+              <li>Leak-proof</li>
+              <li>keeps cold for 24 hours and hot for 6 hours</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, But First, Coffee</span>
+    </footer>
+  </body>
+</html>
